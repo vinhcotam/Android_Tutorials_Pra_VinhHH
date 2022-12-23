@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_10"
+    tools:context=".ex_slide5.ImplicitIntents">
+
+    <EditText
+        android:id="@+id/edit_text_search_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:minHeight="@dimen/dp_48"
+        android:text="@string/defaul_search_web_value"/>
+
+    <Button
+        android:id="@+id/button_search_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey"
+        android:text="@string/button_search_web"
+
+        />
+    <EditText
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/defaul_search_location_value"
+        android:id="@+id/edit_text_search_location"
+        />
+
+
+    <Button
+        android:id="@+id/button_search_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey"
+        android:text="@string/button_search_location"/>
+    <EditText
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_share_message"
+        android:text="@string/defaul_share_message_value"
+        />
+    <Button
+        android:id="@+id/button_share_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey"
+        android:text="@string/button_share_message"/>
+</LinearLayout>
+
+

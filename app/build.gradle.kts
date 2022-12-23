@@ -14,11 +14,13 @@ android {
     compileSdk = AppConfigs.compile_sdk_version
 
     defaultConfig {
+
         applicationId = AppConfigs.application_id
         minSdk = AppConfigs.min_sdk_version
         targetSdk = AppConfigs.target_sdk_version
         versionCode = AppConfigs.version_code
         versionName = AppConfigs.version_name
+
     }
 
     flavorDimensions("appVariant")
@@ -55,6 +57,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures {
+        viewBinding = true
+    }
+
 }
 
 detekt {
@@ -170,6 +176,9 @@ dependencies {
     implementation(Deps.appcompat)
     implementation(Deps.material)
     implementation(Deps.constraint_layout)
+//    implementation("androidx.appcompat:appcompat:1.5.1")
+    implementation("com.google.android.material:material:1.4.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     testImplementation(Deps.junit)
     testImplementation(Deps.mockk)
