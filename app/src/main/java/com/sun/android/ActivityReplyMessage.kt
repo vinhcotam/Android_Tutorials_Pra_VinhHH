@@ -16,16 +16,17 @@ class ActivityReplyMessage : AppCompatActivity() {
         val textViewMessage: TextView = findViewById(R.id.text_view_message)
         val editTextReply: EditText = findViewById(R.id.edit_text_reply)
         val buttonReply: Button = findViewById(R.id.button_reply)
-        val messageSend: String = intent.getStringExtra("message").toString();
-        textViewMessage.text = messageSend;
+        val messageSend: String = intent.getStringExtra("message").toString()
+        textViewMessage.text = messageSend
         buttonReply.setOnClickListener(){
             if(editTextReply.text.isNullOrEmpty()){
                 Toast.makeText(this, R.string.textr_required_message, Toast.LENGTH_LONG).show()
             }else{
                 val intent = Intent(this, ActivitySendMessage::class.java);
                 intent.putExtra(EXTRA_REPLY, editTextReply.text.toString());
-                startActivity(intent);
+                startActivity(intent)
             }
         }
     }
 }
+
