@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
     <LinearLayout
         android:paddingLeft="10dp"
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/tvTitle"
+            android:id="@+id/tvTitleReply"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reply received"
@@ -22,8 +22,8 @@
             android:layout_width="match_parent"
             android:layout_marginTop="20dp"
             android:textSize="20dp"
-            android:id="@+id/tvReply"
-            android:text="This is the reply"
+            android:id="@+id/tvMessage"
+            android:text="This is the message"
 
             android:layout_height="wrap_content">
 
@@ -31,22 +31,22 @@
     </LinearLayout>
 
     <EditText
+        android:id="@+id/et_Reply"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Enter your Message here"
-        android:id="@+id/et_Message"
-        android:layout_alignParentBottom="true">
-    </EditText>
+        android:layout_alignParentBottom="true"
+        android:hint="Enter your Reply here"
+        android:textColorHint="#757575"></EditText>
 
     <Button
-        android:id="@+id/btnSend"
+        android:id="@+id/btnReply"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="300dp"
         android:backgroundTint="#A9A9A9"
-        android:text="Send">
+        android:text="Reply"
+        android:textColor="#4E342E">
 
     </Button>
-
 </RelativeLayout>
