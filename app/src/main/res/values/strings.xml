@@ -1,1 +1,12 @@
-<resources></resources>
+<resources>
+    <string name="textr_required_message">Vui lòng nhập Message</string>
+    <string name="enter_message">Enter your Message here</string>
+    <string name="enter_reply">Enter your Reply here</string>
+    <string name="button_reply">Reply</string>
+    <string name="button_send">Send</string>
+    <string name="text_display_reply">This is the reply</string>
+    <string name="text_display_message_received">This is the message</string>
+    <string name="text_title_received">Message received</string>
+    <string name="text_title_reply">Reply received</string>
+
+</resources>

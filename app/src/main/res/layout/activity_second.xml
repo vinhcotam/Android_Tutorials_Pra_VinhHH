@@ -4,26 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".ActivityReplyMessage">
     <LinearLayout
-        android:paddingLeft="10dp"
+        android:paddingLeft="@dimen/dp_10"
         android:layout_width="match_parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/dp_30"
         android:orientation="vertical"
         android:layout_height="wrap_content">
+
         <TextView
-            android:id="@+id/tvTitleReply"
+            android:id="@+id/text_view_title_reply"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reply received"
-            android:textSize="30dp">
-        </TextView>
+            android:text="@string/text_title_received"
+            android:textSize="@dimen/sp_30"></TextView>
+
         <TextView
             android:layout_width="match_parent"
-            android:layout_marginTop="20dp"
-            android:textSize="20dp"
-            android:id="@+id/tvMessage"
-            android:text="This is the message"
+            android:layout_marginTop="@dimen/dp_20"
+            android:textSize="@dimen/sp_20"
+            android:id="@+id/text_view_message"
+            android:text="@string/text_display_message_received"
 
             android:layout_height="wrap_content">
 
@@ -31,22 +32,22 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/et_Reply"
-        android:layout_width="300dp"
+        android:id="@+id/edit_text_reply"
+        android:layout_width="@dimen/dp_300"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:hint="Enter your Reply here"
-        android:textColorHint="#757575"></EditText>
+        android:hint="@string/enter_reply"
+        ></EditText>
 
     <Button
-        android:id="@+id/btnReply"
-        android:layout_width="100dp"
+        android:id="@+id/button_reply"
+        android:layout_width="@dimen/dp_100"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="300dp"
-        android:backgroundTint="#A9A9A9"
-        android:text="Reply"
-        android:textColor="#4E342E">
+        android:layout_marginLeft="@dimen/dp_280"
+        android:backgroundTint="@color/grey"
+        android:text="@string/button_reply"
+        >
 
     </Button>
 </RelativeLayout>
