@@ -8,5 +8,12 @@
     <string name="text_display_message_received">This is the message</string>
     <string name="text_title_received">Message received</string>
     <string name="text_title_reply">Reply received</string>
-
+    <string name="intent_exception">Không thể thực hiện intent này</string>
+    <string name="defaul_search_web_value">http://developer.android.com</string>
+    <string name="defaul_search_location_value">Golden Bridge</string>
+    <string name="button_search_web">OPEN WEBSITE</string>
+    <string name="button_search_location">OPEN LOCATION</string>
+    <string name="button_share_message">SHARE THIS TEXT</string>
+    <string name="defaul_share_message_value">Twas brillig and the slithy toves</string>
+    <string name="text_required_message">Không được để trống ô này</string>
 </resources>

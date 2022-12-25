@@ -1,4 +1,4 @@
-package com.sun.android
+package com.sun.android.ex_slide3
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import com.sun.android.ActivitySendMessage.Companion.EXTRA_REPLY
+import com.sun.android.ex_slide3.ActivitySendMessage.Companion.EXTRA_REPLY
+import com.sun.android.R
 
 class ActivityReplyMessage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

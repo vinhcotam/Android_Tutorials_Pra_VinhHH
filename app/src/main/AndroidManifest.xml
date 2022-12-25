@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sun.android">
+    package="com.sun.android" >
 
     <application
         android:allowBackup="true"
@@ -8,23 +8,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Structure_Android">
+        android:theme="@style/Theme.Structure_Android" >
         <activity
-            android:name=".ActivityReplyMessage"
-            android:exported="false"
-            android:parentActivityName=".ActivitySendMessage">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".ActivitySendMessage"
-            android:exported="true">
+            android:name=".ex_slide5.ImplicitIntents"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ex_slide3.ActivityReplyMessage"
+            android:exported="false"
+            android:parentActivityName=".ex_slide3.ActivitySendMessage" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ex_slide3.ActivitySendMessage"
+            android:exported="true" >
+
         </activity>
     </application>
 
