@@ -38,7 +38,7 @@ class FragmentEx : AppCompatActivity() {
         val fragmentManager = supportFragmentManager
         val entireActivityLifecycle: entireActivityLifecycle? = fragmentManager
             .findFragmentById(R.id.fragment_container) as entireActivityLifecycle?
-        if (entireActivityLifecyclegi) {
+        if (entireActivityLifecycle != null) {
             val fragmentTransaction = fragmentManager.beginTransaction()
             fragmentTransaction.remove(entireActivityLifecycle).commit()
         }
