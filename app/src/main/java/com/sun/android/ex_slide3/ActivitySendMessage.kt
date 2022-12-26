@@ -1,4 +1,4 @@
-package com.sun.android
+package com.sun.android.ex_slide3
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.sun.android.databinding.ActivityMainBinding
+import com.sun.android.R
 
 class ActivitySendMessage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
