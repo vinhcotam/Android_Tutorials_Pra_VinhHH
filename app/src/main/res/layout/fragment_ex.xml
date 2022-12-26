@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ex_slide6.Slide6">
+    tools:context=".ex_slide6.FragmentEx">
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/dp_0"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="parent"
@@ -16,10 +16,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <fragment
-        android:id="@+id/fragment"
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:name="com.sun.android.ex_slide6.entireActivityLifecycle"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/dp_0"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -27,19 +27,30 @@
         tools:layout="@layout/fragment_entire_activity_lifecycle" />
     <LinearLayout
         android:layout_marginTop="@dimen/dp_100"
-        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_10"
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                app:srcCompat="@drawable/ic_launcher_background">
+            </ImageView>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:text="@string/open"
+                android:id="@+id/button_open_close"
+                android:layout_height="@dimen/dp_60">
+            </Button>
+        </LinearLayout>
 
-        <ImageView
-            android:layout_width="@dimen/dp_100"
-            android:layout_height="@dimen/dp_100"
-            app:srcCompat="@drawable/ic_launcher_background">
-        </ImageView>
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
                 android:layout_width="match_parent"

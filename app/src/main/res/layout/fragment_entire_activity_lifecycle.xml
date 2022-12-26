@@ -28,14 +28,15 @@
             android:id="@+id/radio_button_yes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
+            android:layout_marginRight="@dimen/dp_8"
             android:text="@string/yes" />
 
         <RadioButton
             android:id="@+id/radio_button_no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
+            android:layout_marginRight="@dimen/dp_8"
             android:text="@string/no" />
     </RadioGroup>
+
 </LinearLayout>

@@ -1,4 +1,7 @@
 <resources>
+    <string name="slide3">Truyền dữ liệu giữa 2 intent</string>
+    <string name="slide5">Implicit Intents</string>
+    <string name="slide6">Fragement</string>
     <string name="textr_required_message">Vui lòng nhập Message</string>
     <string name="enter_message">Enter your Message here</string>
     <string name="enter_reply">Enter your Reply here</string>
@@ -23,5 +26,7 @@
     <string name="no_message">ARTICLE: Thanks</string>
     <string name="question_article">LIKE THE ARTICLE?</string>
     <string name="article_title">Cry for a Shadow</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
     <string name="content_article">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
 </resources>
