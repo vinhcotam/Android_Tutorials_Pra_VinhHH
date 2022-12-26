@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sun.android" >
+    package="com.sun.android">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Structure_Android" >
+        android:theme="@style/Theme.Structure_Android">
+        <activity
+            android:name=".ex_slide6.Slide6"
+            android:exported="true">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".ex_slide5.ImplicitIntents"
-            android:exported="true" >
+            android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,16 +33,14 @@
         <activity
             android:name=".ex_slide3.ActivityReplyMessage"
             android:exported="false"
-            android:parentActivityName=".ex_slide3.ActivitySendMessage" >
+            android:parentActivityName=".ex_slide3.ActivitySendMessage">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".ex_slide3.ActivitySendMessage"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

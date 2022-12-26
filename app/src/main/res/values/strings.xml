@@ -16,4 +16,12 @@
     <string name="button_share_message">SHARE THIS TEXT</string>
     <string name="defaul_share_message_value">Twas brillig and the slithy toves</string>
     <string name="text_required_message">Không được để trống ô này</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="yes_message">ARTICLE: Like</string>
+    <string name="no_message">ARTICLE: Thanks</string>
+    <string name="question_article">LIKE THE ARTICLE?</string>
+    <string name="article_title">Cry for a Shadow</string>
+    <string name="content_article">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
 </resources>

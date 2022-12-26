@@ -9,22 +9,24 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.sun.android.R
+import com.sun.android.databinding.ActivityImplicitIntentsBinding
 import com.sun.android.databinding.ActivityMainBinding
 
 class ImplicitIntents : AppCompatActivity() {
     private val binding by lazy {
-        ActivityMainBinding.inflate(layoutInflater)
+        ActivityImplicitIntentsBinding.inflate(layoutInflater)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_implicit_intents)
-        val editTextSearchWeb: EditText = findViewById(R.id.edit_text_search_web);
-        val buttonSearchWeb: Button = findViewById(R.id.button_search_web);
-        val editTextSearchLocation: EditText = findViewById(R.id.edit_text_search_location);
-        val buttonSearchLocation: Button = findViewById(R.id.button_search_location);
-        val editTextShareMessage: EditText = findViewById(R.id.edit_text_share_message);
-        val buttonShareMessage: Button = findViewById(R.id.button_share_message);
+        setContentView(binding.root)
+        val editTextSearchWeb = binding.editTextSearchWeb
+        val buttonSearchWeb = binding.buttonSearchWeb
+        val editTextSearchLocation = binding.editTextSearchLocation
+        val buttonSearchLocation = binding.buttonSearchLocation
+        val editTextShareMessage = binding.editTextShareMessage
+        val buttonShareMessage = binding.buttonShareMessage
+
         buttonSearchWeb.setOnClickListener() {
             if (editTextSearchWeb.text.toString().isNullOrEmpty()) {
                 Toast.makeText(this, R.string.text_required_message, Toast.LENGTH_LONG).show()
