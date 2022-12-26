@@ -11,6 +11,13 @@
     <string name="text_display_message_received">This is the message</string>
     <string name="text_title_received">Message received</string>
     <string name="text_title_reply">Reply received</string>
+    <string name="minus_button">Minus Button</string>
+    <string name="plus_button">Plus Button</string>
+    <string name="team_1">Team 1</string>
+    <string name="team_2">Team 2</string>
+    <string name="initial_count">0</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
     <string name="intent_exception">Không thể thực hiện intent này</string>
     <string name="defaul_search_web_value">http://developer.android.com</string>
     <string name="defaul_search_location_value">Golden Bridge</string>
