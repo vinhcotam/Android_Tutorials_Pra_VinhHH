@@ -25,41 +25,45 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_entire_activity_lifecycle" />
+
     <LinearLayout
-        android:layout_marginTop="@dimen/dp_100"
-        android:layout_marginLeft="@dimen/dp_10"
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_100"
+        android:orientation="horizontal">
+
         <LinearLayout
             android:layout_width="wrap_content"
-            android:orientation="vertical"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
             <ImageView
                 android:layout_width="@dimen/dp_100"
                 android:layout_height="@dimen/dp_100"
-                app:srcCompat="@drawable/ic_launcher_background">
-            </ImageView>
+                app:srcCompat="@drawable/ic_launcher_background"></ImageView>
+
             <Button
-                android:layout_width="@dimen/dp_100"
-                android:text="@string/open"
                 android:id="@+id/button_open_close"
-                android:layout_height="@dimen/dp_60">
-            </Button>
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_60"
+                android:text="@string/open"></Button>
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
-                android:text="@string/article_title"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:text="@string/article_title" />
+
             <TextView
                 android:layout_width="match_parent"
-                android:text="@string/content_article"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="@string/content_article" />
 
         </LinearLayout>
     </LinearLayout>

@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import com.sun.android.databinding.FragmentExBinding
 
 
 // TODO: Rename parameter arguments, choose names that match

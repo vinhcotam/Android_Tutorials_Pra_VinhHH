@@ -5,36 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ex_slide3.ActivityReplyMessage">
+
     <LinearLayout
-        android:paddingLeft="@dimen/dp_10"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_30"
         android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:paddingLeft="@dimen/dp_10">
 
         <TextView
             android:id="@+id/text_view_title_reply"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/text_title_received"
-            android:textSize="@dimen/sp_30"/>
+            android:textSize="@dimen/sp_30" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_marginTop="@dimen/dp_20"
-            android:textSize="@dimen/sp_20"
             android:id="@+id/text_view_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
             android:text="@string/text_display_message_received"
 
-            android:layout_height="wrap_content"/>
+            android:textSize="@dimen/sp_20" />
     </LinearLayout>
+
     <EditText
         android:id="@+id/edit_text_reply"
         android:layout_width="@dimen/dp_300"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:hint="@string/enter_reply"
-        />
+        android:hint="@string/enter_reply" />
+
     <Button
         android:id="@+id/button_reply"
         android:layout_width="@dimen/dp_100"
@@ -42,7 +44,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="@dimen/dp_280"
         android:backgroundTint="@color/grey"
-        android:text="@string/button_reply"
-        />
+        android:text="@string/button_reply" />
 </RelativeLayout>
 

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_20"
         android:minHeight="@dimen/dp_48"
-        android:text="@string/defaul_search_web_value"/>
+        android:text="@string/defaul_search_web_value" />
 
     <Button
         android:id="@+id/button_search_web"
@@ -24,13 +24,13 @@
         android:text="@string/button_search_web"
 
         />
+
     <EditText
-        android:layout_marginTop="@dimen/dp_20"
+        android:id="@+id/edit_text_search_location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/defaul_search_location_value"
-        android:id="@+id/edit_text_search_location"
-        />
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/defaul_search_location_value" />
 
 
     <Button
@@ -38,20 +38,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/grey"
-        android:text="@string/button_search_location"/>
+        android:text="@string/button_search_location" />
+
     <EditText
-        android:layout_marginTop="@dimen/dp_20"
+        android:id="@+id/edit_text_share_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edit_text_share_message"
-        android:text="@string/defaul_share_message_value"
-        />
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/defaul_share_message_value" />
+
     <Button
         android:id="@+id/button_share_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/grey"
-        android:text="@string/button_share_message"/>
+        android:text="@string/button_share_message" />
 </LinearLayout>
 
 

@@ -41,5 +41,4 @@
             android:name=".ex_slide3.ActivitySendMessage"
             android:exported="true" />
     </application>
-
 </manifest>

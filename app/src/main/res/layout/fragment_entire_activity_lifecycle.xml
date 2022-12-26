@@ -3,26 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/gold"
     android:orientation="horizontal"
     android:paddingLeft="@dimen/dp_20"
-    android:background="@color/gold"
     tools:context=".ex_slide6.entireActivityLifecycle">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/fragment_header"
-        android:padding="@dimen/dp_4"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="@string/question_article" />
+        android:padding="@dimen/dp_4"
+        android:text="@string/question_article"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
     <RadioGroup
         android:id="@+id/radio_group"
-        android:paddingLeft="@dimen/dp_20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_20">
 
         <RadioButton
             android:id="@+id/radio_button_yes"

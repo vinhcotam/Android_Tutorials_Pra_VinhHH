@@ -36,7 +36,7 @@ class ImplicitIntents : AppCompatActivity() {
                 }
                 try {
                     startActivity(searchWebIntent);
-                    editTextSearchWeb.setText("")
+                    editTextSearchWeb.text.clear()
                 } catch (e: ActivityNotFoundException) {
                     Toast.makeText(this, R.string.intent_exception, Toast.LENGTH_LONG).show()
                 }
@@ -54,7 +54,7 @@ class ImplicitIntents : AppCompatActivity() {
                     }
                 try {
                     startActivity(searchMapIntent);
-                    editTextSearchLocation.setText("")
+                    editTextSearchLocation.text.clear()
                 } catch (e: ActivityNotFoundException) {
                     Toast.makeText(this, R.string.intent_exception, Toast.LENGTH_LONG).show()
                 }
@@ -71,7 +71,7 @@ class ImplicitIntents : AppCompatActivity() {
                 shareMessageIntent.type = "text/plain"
                 try {
                     startActivity(Intent.createChooser(shareMessageIntent, "Share to other apps"))
-                    editTextShareMessage.setText("")
+                    editTextShareMessage.text.clear()
 
                 } catch (e: ActivityNotFoundException) {
                     Toast.makeText(this, R.string.intent_exception, Toast.LENGTH_LONG).show()
