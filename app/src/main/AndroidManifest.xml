@@ -21,8 +21,10 @@
                 android:value="" />
         </activity>
         <activity
+
             android:name=".ex_slide6.FragmentEx"
             android:exported="true">
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
