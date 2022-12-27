@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ex_slide9.AlertDateTime">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_150">
+
+        <Button
+            android:id="@+id/button_alert"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_50"
+            android:layout_gravity="center"
+            android:onClick="onClickShowAlert"
+            android:text="@string/alert" />
+
+        <Button
+            android:id="@+id/button_date"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_50"
+            android:layout_gravity="center"
+            android:onClick="showDatePicker"
+            android:text="@string/date" />
+    </LinearLayout>
+</LinearLayout>

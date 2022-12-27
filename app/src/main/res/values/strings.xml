@@ -2,6 +2,9 @@
     <string name="slide3">Truyền dữ liệu giữa 2 intent</string>
     <string name="slide5">Implicit Intents</string>
     <string name="slide6">Fragement</string>
+    <string name="slide8">Drawable</string>
+    <string name="slide9_1">Menu</string>
+    <string name="slide9_2">Alert, Date</string>
     <string name="textr_required_message">Vui lòng nhập Message</string>
     <string name="enter_message">Enter your Message here</string>
     <string name="enter_reply">Enter your Reply here</string>
@@ -36,4 +39,22 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="content_article">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="droid_cafe">Droid Cafe</string>
+    <string name="order_donut">You ordered a donut</string>
+    <string name="order_ice_cream_sanwich">You ordered an ice cream sanwich</string>
+    <string name="order_yogurt">You ordered a yogurt</string>
+    <string name="name_order">Name</string>
+    <string name="address_order">Address</string>
+    <string name="phone_order">Phone</string>
+    <string name="note_order">Note</string>
+    <string name="choose_delivery_method">Choose a delivery method</string>
+    <string name="same_day_message_service">Same day message service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string name="item_order">order</string>
+    <string name="alert">Alert</string>
+    <string name="date">Date</string>
+    <string name="alert_click_message">Click OK to continue, or Cancel to stop:</string>
+    <string name="ok_message">OK</string>
+    <string name="cancel_message">Cancel</string>
 </resources>
