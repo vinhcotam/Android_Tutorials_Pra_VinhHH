@@ -30,5 +30,8 @@
             @style/TextAppearance.AppCompat.Display1
         </item>
     </style>
-
+    <style name="ShoppingCart">
+        <item name="android:src">@drawable/ic_shoping_cart</item>
+        <item name="android:textAppearance"/>
+    </style>
 </resources>
