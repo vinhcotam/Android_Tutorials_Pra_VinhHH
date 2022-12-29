@@ -5,6 +5,7 @@
     <string name="slide8">Drawable</string>
     <string name="slide9_1">Menu</string>
     <string name="slide9_2">Alert, Date</string>
+    <string name="slide10">User Navigation</string>
     <string name="textr_required_message">Vui lòng nhập Message</string>
     <string name="enter_message">Enter your Message here</string>
     <string name="enter_reply">Enter your Reply here</string>
@@ -59,4 +60,10 @@
     <string name="cancel_message">Cancel</string>
     <string name="press_ok">Press OK</string>
     <string name="press_cancel">Press Cancel</string>
+    <string name="top_stories">These are the top stories:</string>
+    <string name="tech_news">Tech news you can use</string>
+    <string name="cooking_tips">Cooking tips</string>
+    <string name="stories">Stories</string>
+    <string name="tech">Tech</string>
+    <string name="cooking">Cooking</string>
 </resources>
