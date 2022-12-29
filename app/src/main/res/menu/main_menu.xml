@@ -21,4 +21,7 @@
     <item
         android:id="@+id/ex_6_2"
         android:title="@string/slide9_2"/>
+    <item
+        android:id="@+id/ex_7"
+        android:title="@string/slide10"/>
 </menu>
