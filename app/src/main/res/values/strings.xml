@@ -67,4 +67,10 @@
     <string name="tech">Tech</string>
     <string name="cooking">Cooking</string>
     <string name="click">Click</string>
+    <string name="send_custom_broadcast">Send Custom Broadcast</string>
+    <string name="unknow_intent_action">unknown intent action</string>
+    <string name="power_connected">Power connected!</string>
+    <string name="power_disconnected">Power disconnected!</string>
+    <string name="custom_broadcast_received">Custom Broadcast Received</string>
+    <string name="action_custom_broadcast">.ACTION_CUSTOM_BROADCAST</string>
 </resources>
