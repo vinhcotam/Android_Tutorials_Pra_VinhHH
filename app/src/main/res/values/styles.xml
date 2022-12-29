@@ -38,4 +38,8 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="AddWord">
+        <item name="android:src">@drawable/ic_add_for_fab</item>
+        <item name="android:textAppearance"/>
+    </style>
 </resources>
