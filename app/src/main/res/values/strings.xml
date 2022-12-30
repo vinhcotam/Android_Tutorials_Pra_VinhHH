@@ -94,4 +94,7 @@
     <string name="green">GREEN</string>
     <string name="count">COUNT</string>
     <string name="reset">RESET</string>
+    <string name="notify_me">Notify me!</string>
+    <string name="update_me">Update me!</string>
+    <string name="cancel_me">Cancel me!</string>
 </resources>
