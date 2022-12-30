@@ -179,10 +179,8 @@ dependencies {
     implementation ("com.android.support:design:26.0.+")
     implementation ("com.android.support:support-v13:22.2.0")
     implementation ("com.android.support:appcompat-v7:26.1.0")
-
     implementation("com.google.android.material:material:1.4.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-
     testImplementation(Deps.junit)
     testImplementation(Deps.mockk)
 }
