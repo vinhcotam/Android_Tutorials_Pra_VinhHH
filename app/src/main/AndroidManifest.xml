@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sun.android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,17 +12,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Structure_Android">
-        <receiver
-            android:name=".ex_slide14.BroadCastReceiverEx14"
-            android:enabled="true"
-            android:exported="true"></receiver>
 
-        <activity android:name=".ex_slide12.AsyncTaskActivity">
+        <activity
+            android:name=".ex_slide13.BookApiActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <receiver
+            android:name=".ex_slide14.BroadCastReceiverEx14"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ex_slide12.AsyncTaskActivity">
+
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
