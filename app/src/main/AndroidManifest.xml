@@ -13,12 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Structure_Android">
         <activity
-            android:name=".ex_slide17.SharedPreferencesActivity"
+            android:name=".ex_slide20.NotificationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".ex_slide17.SharedPreferencesActivity"
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -30,6 +39,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
 
         <receiver
             android:name=".ex_slide14.BroadCastReceiverEx14"
